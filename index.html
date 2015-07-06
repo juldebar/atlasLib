@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Atlas lIBRARY - DEVELOPMENT TOOL</title>
+        <link rel="stylesheet" type="text/css" href="style.css"> 
+        <script src="jquery.min.js" type="text/javascript"></script>  
+        <script type="text/javascript" src="script.js"></script>  
+
+        <script src='http://code.jquery.com/jquery-2.1.3.min.js'></script>
+        <script src='http://coffeescript.org/extras/coffee-script.js'></script>
+        <script src='http://jumly.tmtk.net/public/jumly.min.js'></script>
+
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" type="text/css" href="stylesmenu.css" />
+        <link href='http://fonts.googleapis.com/css?family=Cinzel:400,700,900' rel='stylesheet' type='text/css'>
+        <style>
+            .amarelo{ background:lightgrey; } .vermelho{ background:lightgrey; } .azul{ background:lightgrey; } .verde{ background:lightgrey; }
+            .tile{   height: 200px;
+                     width: 200px;
+                     float: left;
+                     margin: 0 5px 0 0;
+                     padding: 2px; } .tileLargo{ width:210px; border:1px solid black;} 
+            body{  color: black; 
+            } 
+            .pagina{ width:100%; height:100%; } 
+            .linha{ width:auto; padding:5px; height:auto; display:table; }
+            .selecionado{
+                background-color: #483D8B;
+            }
+            .titulo{
+                width: 100%;
+                height: 100%;
+                left: 0;
+                line-height: 90px;
+                text-align: center;
+                position: relative;
+                float: left;
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+
+        <a href="https://github.com/you" target="_blank"><img style="height:15%;z-index:2000;position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
+        <div id="arrow_up" style="display:none">
+            <img src="img/arrow_up.png" style="height:100%;"/>
+        </div>
+        <div id="arrow_down" style="display:block">
+            <img src="img/arrow_down.png" style="height:100%;"/>
+        </div>
+        <!--        <div id="navCategorie" style="display:none">
+                    <div id="arrow_next">
+                        <img src="img/next.png" style="height:100%;"/>
+                    </div>
+                    <div id="arrow_previous">
+                        <img src="img/previous.png" style="height:100%;float:right;"/>
+                    </div>
+                </div>-->
+        <div id="menu" style="display:none;position:fixed;margin-top:19%;height:260px;z-index:1000;margin-left:0%;display:none;border-top:1px solid #aaa;border-right:1px solid #aaa;border-bottom:1px solid #aaa;box-shadow: -10px 0px 18px 15px #aaa;">
+            <ul id="navigationMenu" style="padding:0 !important">
+                <li>
+                    <a id="home" class="home" href="#">
+                        <span>Accueil</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a id="presentation" class="about" href="#">
+                        <span>Initialisation</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a id="mdst" class="services" href="#">
+                        <span>Exemples MDST</span>
+                    </a>
+                </li>
+
+
+
+                <li>
+                    <a id="sparqlconnector" class="portfolio" href="#">
+                        <span>Sparql connector</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a id="responsive" class="contact" href="#">
+                        <span>Responsive view</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a id="uml" class="uml" href="#">
+                        <span>coin des devs</span>
+                    </a>
+                </li>
+
+
+
+
+            </ul>
+        </div>
+        <div id="keyboard">
+            <img src="img/keyboard.png" style="width:100%;"/>
+        </div>
+
+        <div id="header">
+            <div id="mutedButton" style="display:none;color:black;text-align:left;width:30%;float:left;height:100%;">
+
+                <a target="_blank" href="doc_atlas.pdf">
+                    <img id="" src="img/pdf.png" style="height:40%;margin:5% 0 0 5%;cursor: pointer; cursor: hand;z-index:1000;"/>
+                </a>
+
+            </div>
+
+            <div id="titleTop" style="display:none;color:black;text-align:center;color:#353535;"></div>
+        </div>
+        <div id="page1" class="part GeneralElement">
+            <div id="contenu1">
+                <p><b><h1>Atlas lIBRARY</h1></b> <br/><br/><h2> <i>Sparql Endpoint constructor</i></h2></p>
+                <p style="color:black;padding-left: 10%;padding-right: 10%;padding-top: 2%;">
+                    Ce site Web donne accès à la documentation et aux codes de différentes librairies Javascripts (accessible sur http://mdst-macroes.ird.fr/cdn).
+                    Ces librairies permettent l’intégration rapide de services développés à l'origine pour des sites Web liés à l'unité MARBEC (http://www.umr-marbec.fr) afin de les réutiliser dans d'autres Sites Web (IRD, partenaires ou autres):
+
+                <ul style="color:black;padding-left: 10%;padding-right: 10%;padding-top: 2%;">
+                    <li>prestation 1: la librairie Javascript "Atlas Fact Sheet" permet de mettre en place rapidement des fiches sur des objets de référence (Fiches sur des agents, des bases de données ou des espèces) à partir d'information stockées dans des bases de données accessibles en ligne (Wiki/Dbpédia ou Ecoscope pour les informations propres à l’unité MARBEC).
+                    </li>
+                    <li>
+                        prestation 2: application de la méthode pour la mise en place de la librairie Javascript "MDST data access" permet d’intégrer un service de requêtes sur des bases de données connectées au MDST
+                    </li>
+                    <li>
+                        prestation 3: la librairie Javascript "Map visualization" permet d’intégrer un service de visualisation de données grillées (pêche, satellite, sorties de modèles: exemple http://mdst-macroes.ird.fr/MDSTWebClientNG/SIP/SIP.action?selectedSourceType=SATELLITE&selectedProcessURI=sst2)
+                    </li>
+                    <li>
+                        prestation 4: la librairie Javascript "Indicators" permet d’intégrer un service de requêtes sur des bases de données connectées au MDST (Tuna Atlas / Sardara, séries temporelles de paramètres physico-chimiques, profils de profondeur:http://mdst-macroes.ird.fr/MDSTWebClientNG/SIP/SIP.action?selectedSourceURI=http://www.ecoscope.org/ontologies/resources/dbSardaraTunaAtlas&selectedViewURI=http://www.ecoscope.org/ontologies/resources/dbSardaraTunaAtlasI1I2&selectedProcessURI=org.n52.wps.server.r.toto_wps)
+                    </li>
+                </ul>
+
+                Ce site montre:
+                <ul style="color:black;padding-left: 10%;padding-right: 10%;padding-top: 2%;">
+                    <li>
+                        comment créer rapidement une nouvelle page Web qui intègre ces services,
+                    </li>
+                    <li>
+                        comment les intégrer dans des pages existantes.
+                    </li>
+                </ul>
+                </p>
+
+            </div> 
+        </div>
+        <div id="page2" class="part GeneralElement">
+            <div id="contenu2">
+
+
+                <div style="width:50%;height:312px;position:absolute;top:23%;right:25%;" class="contentWrapper">
+                    <div style="width:50%;height:100%;float:left;text-align:left;"> 
+                        <p style="color:black;">l'initialisation se fait pas l'instanciation d'un object ayant pour object : </p>
+                        <ul>
+                            <li style="color:black;">
+                                URI
+                            </li>
+                            <li style="color:black;">
+                                endpointLocation
+                            </li>
+                        </ul>
+                    </div>
+                    <div style="width:50%;height:100%;float:left;">
+                        <iframe height='432' scrolling='no' src='http://codepen.io/AtlasLib/embed/pJrbKz/?height=432&theme-id=15983&default-tab=js' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <div id="page3" class="part GeneralElement">
+            <div id="contenu3">
+
+
+                <div style="width: 80%;height: 312px;position: absolute;top: 10%;right: 0%;">
+                    <div class="pagina"> 
+                        <div class="linha"> 
+                            <div class="tile amarelo"> 
+                                <a href="examples/bdd_examples.html" target='_blank'><span class="titulo">fiche base de donnée examples</span></a><br/>
+                            </div> 
+                            <div class="tile azul"> 
+                                <a href="examples/agent_examples.html" target='_blank'><span class="titulo">fiche agent examples</span></a><br/>
+                            </div> 
+                            <div class="tile verde">
+                                <a href="examples/espece_examples.html" target='_blank'><span class="titulo">fiche espece examples</span></a><br/>
+                            </div> 
+                        </div> </div>
+                </div>
+            </div> 
+        </div>
+        <div id="page4" class="part GeneralElement">
+            <div id="contenu4">
+                <div style="height: 312px;position: absolute;right: 24%;top: 12%;width: 50%;">
+                    <div class="pagina"> 
+                        <div class="linha"> 
+                            <div class="tile amarelo"> 
+                                <a href="examples/dbpedia_examples.html" target='_blank'><span class="titulo">dbpedia</span></a><br/>
+                            </div> 
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="page5" class="part GeneralElement">
+            <div id="contenu5">
+                <div style="height: 312px;position: absolute;right: 24%;top: 12%;width: 50%;">
+                    <iframe height='432' scrolling='no' src='http://codepen.io/AtlasLib/embed/pJrbKz/?height=432&theme-id=15983&default-tab=js' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>
+                </div>
+            </div>
+        </div>
+        <div id="page6" class="part GeneralElement">
+            <div id="contenu6">
+
+
+                <div style="width:50%;height:312px;position:absolute;top:23%;right:25%;">
+                    <script type='text/jumly+sequence'>
+                        @found "You", ->
+                        @message "get", "JUMLY"
+                    </script>
+                    <div class="sequence-diagram diagram" style="width: 246px;"><div class="participant found" style="left: 0px;"><div class="name">You</div></div><span class="horizontal spacing" style="top: 0px; left: 96px;"></span><div class="participant" style="position: relative; left: 36px;"><div class="name">JUMLY</div></div><div class="interaction activated"><div class="occurrence leftmost" style="left: 42px;"><div class="interaction"><div class="message" style="width: 148px; left: -2px;"><svg class="arrow" width="148" height="20"><line x1="16" y1="10" x2="136" y2="10"></line><polyline class="head" points="126,4 136,10 126,16"></polyline><polyline class="closed" points="126,17 126,3"></polyline></svg><div class="name">get</div></div><div class="occurrence rightmost" style="left: 134px;"></div></div></div></div><div class="lifeline" style="width: 96px; left: 0px; height: 81px; margin-top: -69.3125px;"><div class="line"></div></div><div class="lifeline" style="width: 96px; left: 136px; height: 81px; margin-top: -81px;"><div class="line"></div></div></div>
+                    <img src="img/diagramUML.png" style="width:100%;height:100%;"/>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="bottom">
+            <div  id="designedBy">
+                <p style="color:black !important;">
+                    Design By Celty and Espheros
+                </p>
+            </div>
+            <div id="copyright"><p style="color:black !important;"><i>copyright @Celty 2013</i></p></div>
+        </div>
+    </body>
+</html>

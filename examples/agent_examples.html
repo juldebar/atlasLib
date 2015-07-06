@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Atlas lIBRARY - DEVELOPMENT TOOL</title>
+        <link rel="stylesheet" type="text/css" href="../style.css"> 
+<!--        <script src="jquery.min.js" type="text/javascript"></script>  -->
+
+        <script charset="utf-8" src='http://preprod.celty.fr/devLibrary/js/script.js' type="text/javascript"></script>
+        <script charset="utf-8" src='http://preprod.celty.fr/devLibrary/js/minimal-carousel.js' type="text/javascript"></script>
+
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<!--        <link rel="stylesheet" type="text/css" href="stylesmenu.css" />-->
+        <link href='http://fonts.googleapis.com/css?family=Cinzel:400,700,900' rel='stylesheet' type='text/css'>
+        <style>
+            .amarelo{ background:#DAA520; } .vermelho{ background:#CD0000; } .azul{ background:#4682B4; } .verde{ background-color: #2E8B57; }
+            .tile{ height:100px; width:100px; float:left; margin:0 5px 0 0; padding:2px; } .tileLargo{ width:210px; } 
+        </style>
+    </head>
+
+    <body>
+
+
+        <!--<a href="https://github.com/you" target="_blank"><img style="height:15%;z-index:2000;position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>-->
+
+
+        <div id="header">
+
+            <div id="titleTop" style="display:block;color:black;text-align:left;margin-left:20px;color:#353535;">espèces intégration example</div>
+        </div>
+        <div id="page1" class="part GeneralElement" style="display:block !important;">
+            <div id="contenu1" style="width: 70%;height: 60%;position: absolute;top: 5%;margin-left: 15%;margin-top: 5%;overflow:hidden;">
+                <div style="width:40%;height:90%;float:left;" id="embed"></div>
+                <div style="width:60%;height:90%;float:left;">
+                    <textarea name="textarea" rows="10" cols="50" style="width:100%;height:100%;">
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Titre de la page</title>
+
+            <script charset="utf-8" src='http://preprod.celty.fr/devLibrary/js/script.js' type="text/javascript"></script>
+            <script charset="utf-8" src='http://preprod.celty.fr/devLibrary/js/minimal-carousel.js' type="text/javascript"></script>
+
+
+    </head>
+    <body>
+        <div id="embed" style="width:600px;height:400px"></div>
+        <script type="text/javascript">
+            var initObject = {
+                uri: "http://www.ecoscope.org/ontologies/agents/philippeCury",
+                contentWrapper: "embed",
+                lang: "FR",
+                view: "espece",
+                viewSize: "middle"
+            };
+
+            var init = new atlasLib;
+            init.init(initObject);
+                                </script>
+
+
+    </body>
+</html>
+                    </textarea>
+            </div> 
+        </div>
+        <div id="bottom">
+            <div  id="designedBy">
+                <p style="color:black !important;">
+                    Design By Celty and Espheros
+                </p>
+            </div>
+            <div id="copyright"><p style="color:black !important;"><i>copyright @Celty 2013</i></p></div>
+        </div>
+        <script type="text/javascript">
+            if (document.getElementById && document.createTextNode) {
+                var init1 = new atlasLib;
+                window.onload = function () {
+                    var initObject = {
+                        uri: "http://www.ecoscope.org/ontologies/agents/philippeCury",
+                        contentWrapper: "embed",
+                        lang: "FR",
+                        view: "agent",
+                        viewSize: "middle"
+                    };
+
+                    var init = new atlasLib;
+                    init.init(initObject);
+                };
+            };
+        </script>
+    </body>
+</html>

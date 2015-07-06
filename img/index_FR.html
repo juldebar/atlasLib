@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Domalain Arnaud - Develloper</title>
+        <link rel="stylesheet" type="text/css" href="style.css"> 
+        <script src="jquery.min.js" type="text/javascript"></script>  
+        <script type="text/javascript" src="script.js"></script>  
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" type="text/css" href="stylesmenu.css" />
+		<link href='http://fonts.googleapis.com/css?family=Cinzel:400,700,900' rel='stylesheet' type='text/css'>
+    </head>
+
+    <body>
+        <div id="arrow_up" style="display:none">
+            <img src="img/arrow_up.png" style="height:100%;"/>
+        </div>
+        <div id="arrow_down" style="display:none">
+            <img src="img/arrow_down.png" style="height:100%;"/>
+        </div>
+        <div id="navCategorie" style="display:none">
+            <div id="arrow_next">
+                <img src="img/next.png" style="height:100%;"/>
+            </div>
+            <div id="arrow_previous">
+                <img src="img/previous.png" style="height:100%;float:right;"/>
+            </div>
+        </div>
+		<div id="menu" style="display:none;position:fixed;margin-top:19%;height:265px;z-index:1000;margin-left:0%;display:none;border-top:1px solid #aaa;border-right:1px solid #aaa;border-bottom:1px solid #aaa;box-shadow: -10px 0px 18px 15px #aaa;">
+			<ul id="navigationMenu" style="padding:0 !important">
+				<li>
+					<a id="home" class="home" href="#">
+						<span>Accueil</span>
+					</a>
+				</li>
+
+				<li>
+					<a id="formation" class="about" href="#">
+						<span>Formation</span>
+					</a>
+				</li>
+				
+				<li>
+					 <a id="experience" class="experience" href="#">
+						<span>Expériences</span>
+					 </a>
+				</li>
+				
+				<li>
+					 <a id="competence" class="services" href="#">
+						<span>Compétences</span>
+					 </a>
+				</li>
+
+				<li>
+					<a id="apropos" class="portfolio" href="#">
+						<span>A propos</span>
+					</a>
+				</li>
+
+				<li>
+					<a id="thanks" class="contact" href="#">
+						<span>Thanks !</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+        <div id="keyboard">
+            <img src="img/keyboard.png" style="width:100%;"/>
+        </div>
+
+        <div id="header">
+            <div id="mutedButton" style="display:none;color:black;text-align:left;width:30%;float:left;height:100%;">
+                <img id="soundImg" src="img/muted.png" style="height:40%;margin:5% 0 0 5%;cursor: pointer; cursor: hand;z-index:1000;"/>
+				<a target="_blank" href="cv/cvarnaudFR.pdf">
+					<img id="" src="img/pdf.png" style="height:40%;margin:5% 0 0 5%;cursor: pointer; cursor: hand;z-index:1000;"/>
+				 </a>
+                <audio id="sound"  loop autoplay preload> 
+                    <source src="musique/fondsound.mp3" />
+                    <source src="musique/fondsound.ogg" />
+                    <p class="warning">Le format *.mp3 n'est pas pris en charge par votre navigateur</p>
+                </audio>
+                <script type="text/javascript">
+                    var isplaying = 1;
+                    $('#soundImg').click(function() {
+                        if (isplaying === 1) {
+                            $('#soundImg').attr('src', "img/muted2.png");
+                            var audioElm = document.getElementById('sound');
+                            audioElm.currentTime = 0;
+                            audioElm.pause();
+                            isplaying = 2;
+                            return false;
+                        }
+                        if (isplaying === 2) {
+                            $('#soundImg').attr('src', "img/muted.png");
+                            var audioElm = document.getElementById('sound');
+                            audioElm.currentTime = 0;
+                            audioElm.play();
+                            isplaying = 1;
+                            return false;
+                        }
+                    });
+
+                </script>
+            </div>
+			
+            <div id="titleTop" style="display:none;color:black;text-align:center;color:#353535;"></div>
+        </div>
+        <div id="page1" class="part GeneralElement">
+            <div id="contenu1">
+                <p id="name"><b><h1>DOMALAIN Arnaud</h1></b> <br/><br/><h2> <i>Devellopeur - chef de projet</i></h2></p>
+            </div> 
+        </div>
+        <div id="page2" class="part GeneralElement">
+            <div id="contenu2" >
+                <div class="currentPositionFormation" style="right:2%;bottom:10%;"></div>
+                <div class="currentPositionFormation" style="right:4%;bottom:10%;"></div>
+                <div class="currentPositionFormation" style="right:6%;bottom:10%;"></div>
+                <div class="currentPositionFormation" style="right:8%;bottom:10%;"></div>
+                <div class="currentPositionFormation" style="right:10%;bottom:10%;"></div>
+                <div class="currentPositionFormation" style="background-color:black;right:12%;bottom:10%;"></div>
+
+                <div style="width:50%;height:312px;position:absolute;top:23%;right:25%;">
+                    <img src='img/Fond_Formation_final.png' style="width:100%;height:312px;"/>
+                    <div style="top:0;height:312px;position:absolute;font-size:4em;line-height:312px;">2007</div>
+                    <div style="float: right;font-size: 4em;height: 312px;line-height: 312px;position: absolute;right: 2%;top: 0;width: 52%;">
+                        <div style="line-height:1;font-size:0.3em;height:20%;">Baccalauréat Scientifique</div>
+                        <div style="line-height: 1.3em;height:60%;font-size: 0.2em;">
+                            <p style="padding: 1.5em 1.5em 1.5em 1.5em;">Le baccalauréat scientifique implique des capacités d'abstraction, de rigueur, de raisonnement et un goût de l'expérimentation. </p>
+                            <p>Son objectif est de développer une réelle culture scientifique fondée sur des connaissances et une approche expérimentale des sciences.</p>
+                        </div>
+                        <div style="line-height: 100px;bottom:0%;height:20%;font-size: 0.3em">Montpellier - 34000</div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <div id="page3" class="part GeneralElement">
+            <div id="contenu3">
+                <div class="currentPositionFormation" style="right:2%;bottom:10%;"></div>
+                <div class="currentPositionFormation" style="right:4%;bottom:10%;"></div>
+                <div class="currentPositionFormation" style="right:6%;bottom:10%;"></div>
+                <div class="currentPositionFormation" style="right:8%;bottom:10%;"></div>
+                <div class="currentPositionFormation" style="right:10%;bottom:10%;"></div>
+                <div class="currentPositionFormation" style="right:12%;bottom:10%;"></div>
+                <div class="currentPositionFormation" style="right:14%;bottom:10%;"></div>
+                <div class="currentPositionFormation" style="background-color:black;right:16%;bottom:10%;"></div>
+
+                <div style="width:50%;height:312px;position:absolute;top:25%;right:24%;">
+                    <img src='img/Fond_pro_final.png' style="width:100%;height:312px;"/>
+                    <div style="top:0;height:312px;position:absolute;font-size:3em;line-height:312px;">2006</div>
+                    <div style="float: right;font-size: 4em;height: 312px;line-height: 312px;position: absolute;right: 10%;top: 0;width: 52%;">
+                        <div style="line-height:1;font-size:large;height:20%;">Les saveurs du midi</div>
+                        <div  style="line-height: 1.3em;height:60%;font-size: 0.2em;">
+                            <p style="padding: 1.5em 1.5em 1.5em 1.5em;">
+                                Création et réalisation d’un site de restauration et de chambred’hôte.
+                            </p>
+                            <p>Son objectif est de développer une réelle culture scientifique fondée sur des connaissances et une approche expérimentale des sciences.</p>
+                        </div>
+                        <div style="line-height: 60px;bottom:0%;height:20%;font-size: large">www.lessaveursdumidi.fr</div>
+                    </div>
+                </div>
+            </div> 
+
+        </div>
+        <div id="page4" class="part GeneralElement">
+            <div id="contenu4">
+                <div style="height: 312px;position: absolute;right: 24%;top: 12%;width: 50%;">
+                    <img src='img/compétence.png' style="width:90%;"/>
+                </div>
+            </div>
+        </div>
+        <div id="page5" class="part GeneralElement">
+            <div id="contenu5">
+                <div class="currentPositionFormation" style="right:2%;bottom:10%;"></div>
+                <div class="currentPositionFormation" style="background-color:black;right:4%;bottom:10%;"></div>
+
+                <div style="width:50%;height:312px;position:absolute;top:23%;right:25%;">
+                    <img src='img/Fond_Formation_final.png' style="width:100%;height:312px;"/>
+                    <div style="top:0;height:312px;position:absolute;font-size:3em;line-height:312px;">Musique</div>
+                    <div style="float: right;font-size: 4em;height: 312px;line-height: 312px;position: absolute;right: 2%;top: 0;width: 52%;">
+                        <div style="line-height:1;font-size:0.3em;height:20%;">Guitare - piano - accordéon</div>
+                        <div style="line-height: 1.3em;height:60%;font-size: 0.2em;">
+                            <p style="padding: 1.5em 1.5em 1.5em 1.5em;">
+                                je pratique la musique depuis plusieurs année sur différents intruments. <br/>
+                                je pratique aussi la composition numérique sur logiciel (ableton live) en tant que loisir.
+                            </p>
+                            <p>
+                                ces deux passions m'ont permis de produire la musique de différents projets auquels j'ai participer. notamment "inprose".
+                            </p>
+                        </div>
+                        <div style="line-height: 100px;bottom:0%;height:20%;font-size: 0.3em">www.soundcloud.com/dubsteak-3</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="page6" class="part GeneralElement">
+            <div id="contenu6">
+                <p id="name"><b><h1>Merci de votre visite</h1></b> <br/><br/><h2> <i>En espérant faire partie de votre équipe prochainement.</i></h2></p>
+            </div>
+        </div>
+
+        <div id="bottom">
+            <div  id="designedBy">
+                <p>
+                    Design By Celty and Espheros
+                </p>
+
+            </div>
+            <div id="citation">
+                <p>''Tomber est permis ; se relever est ordonné.''</p>
+            </div>
+            <div id="copyright"><p><i>copyright @Celty 2013</i></p></div>
+        </div>
+    </body>
+</html>

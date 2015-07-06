@@ -1,0 +1,25 @@
+/* OpenLayers Fix: override any max-width image settings (e.g. bootstrap.css) */
+img.olTileImage {
+    max-width: none;
+}
+
+.olControlLayerSwitcher .layersDiv {
+    background-color: #b8e1e7 !important; 
+    overflow-y: scroll;
+    height:400px;
+}
+
+.olControlEditingToolbar  {
+    float:right;
+    right: 50px !important ;
+    height: 30px;
+    width: 270px;
+
+}
+
+.olControlEditingToolbar .olControlSelectFeatureItemInactive {
+    background-image: url("../img/draw_polygon_off.png");
+}
+.olControlEditingToolbar .olControlSelectFeatureItemActive {
+    background-image: url("../img/draw_polygon_on.png");
+}

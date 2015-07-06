@@ -1,0 +1,168 @@
+
+
+
+
+#navigationMenu li{
+	list-style:none;
+	height:39px;
+
+	width:40px;
+}
+
+#navigationMenu span{
+	/* Container properties */
+	width:0;
+	left:38px;
+	padding:0;
+	position:absolute;
+	overflow:hidden;
+
+	/* Text properties */
+	
+	/*font-family:'Myriad Pro',Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;*/
+	letter-spacing:0.6px;
+	white-space:nowrap;
+	line-height:39px;
+	
+	/* CSS3 Transition: */
+	-webkit-transition: 0.25s;
+	
+	/* Future proofing (these do not work yet): */
+	-moz-transition: 0.25s;
+	transition: 0.25s;
+}
+
+#navigationMenu a{
+	background:url('img/navigation.jpg') no-repeat;
+
+	height:37px;
+	width:38px;
+	display:block;
+	position:relative;
+}
+
+/* General hover styles */
+
+#navigationMenu a:hover span{ width:auto; padding:0 20px;overflow:visible; }
+#navigationMenu a:hover{
+	text-decoration:none;
+	
+	/* CSS outer glow with the box-shadow property */
+	-moz-box-shadow:0 0 5px #000;
+	-webkit-box-shadow:0 0 5px #000;
+	box-shadow:0 0 5px #000;
+}
+
+/* Green Button */
+
+#navigationMenu .home {	background-position:0 0;}
+#navigationMenu .home:hover {	background-position:0 -39px;}
+#navigationMenu .home span{
+	/*background-color:#7da315;
+	color:#3d4f0c;*/
+	text-shadow:1px 1px 0 grey;
+}
+
+/* Blue Button */
+
+#navigationMenu .about { background-position:-38px 0;}
+#navigationMenu .about:hover { background-position:-38px -39px;}
+#navigationMenu .about span{
+	/*-color:#1e8bb4;
+	color:#223a44;*/
+	text-shadow:1px 1px 0 grey;
+}
+
+/* Orange Button */
+
+#navigationMenu .services { background-position:-76px 0;}
+#navigationMenu .services:hover { background-position:-76px -39px;}
+#navigationMenu .services span{
+	/*background-color:#c86c1f;
+	color:#5a3517;*/
+	text-shadow:1px 1px 0 grey;
+}
+
+/* Yellow Button */
+
+#navigationMenu .portfolio { background-position:-114px 0;}
+#navigationMenu .portfolio:hover{ background-position:-114px -39px;}
+#navigationMenu .portfolio span{
+	/*background-color:#d0a525;
+	color:#604e18;*/
+	text-shadow:1px 1px 0 grey;
+}
+
+/* Purple Button */
+
+#navigationMenu .contact { background-position:-152px 0;}
+#navigationMenu .uml { background-position:-190px 0;}
+#navigationMenu .contact:hover { background-position:-152px -39px;}
+#navigationMenu .contact span{
+	/*background-color:#af1e83;
+	color:#460f35;*/
+	text-shadow:1px 1px 0 grey;
+}
+
+#navigationMenu .experience { background-position:-190px 0;}
+#navigationMenu .experience:hover { background-position:-190px -39px;}
+#navigationMenu .experience span{
+	/*background-color:#af1e83;
+	color:#460f35;*/
+	text-shadow:1px 1px 0 grey;
+}
+
+#navigationMenu .thanks { background-position:-228px 0;}
+#navigationMenu .thanks:hover { background-position:-228px -39px;}
+#navigationMenu .thanks span{
+	/*background-color:#af1e83;
+	color:#460f35;*/
+	text-shadow:1px 1px 0 grey;
+}
+
+
+
+/* The styles below are only needed for the demo page */
+
+#main{
+	margin:80px auto;
+	position:relative;
+	width:40px;
+}
+
+
+h1{
+	color:#000000;
+	font-size:30px;
+	font-weight:normal;
+	padding:60px 0 20px;
+	text-align:center;
+}
+
+h2{
+	font-weight:normal;
+	text-align:center;
+}
+
+a, a:visited,a:active {
+	color:#000;
+	text-decoration:none;
+	outline:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+a img{
+	border:none;
+}
+
+p.note{
+	color:#000;
+	font-size:10px;
+	text-align:center;
+	margin:50px;
+}

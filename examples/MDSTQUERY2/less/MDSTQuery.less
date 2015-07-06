@@ -1,0 +1,364 @@
+
+
+input[readonly] {
+    cursor: pointer !important;
+}
+.progress {
+    /*height:60px;titititi*/
+    margin-bottom: 0px;
+}
+
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #da4f49;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background: #da4f49;
+}
+
+.result-block{
+    
+    background-color: #f7f7f7 !important;;
+    min-height: 291px;
+}
+
+#MDSTContainer{
+    min-height: 250px;
+}
+
+.otherSize{
+    width:100%;
+    max-width:152px; /* width= requestedCriteriaName + 68px*/ 
+    height: 36px;
+}
+/* Update btn*/
+.update{
+    padding: 1px 3px !important; /* ecrase le padding de la classe .btn de Boo*/
+}
+
+.alert {
+    margin-bottom: 10px;
+}
+
+/* Popup */
+
+.white-popup {
+    position: relative;
+    background: #FFF;
+    padding: 20px;
+    width:auto;
+    min-height:800px;
+    /*  max-width: 90%;*/
+    margin: 10px auto;
+}
+
+//override whitePopup
+.mfp-bg {
+    opacity: 0.8 ;
+}
+
+.popup-content{
+    background-color: #1779ac;
+    position:relative;
+    margin:10px auto; 
+    height:100%;
+}
+
+
+/* Steps in request */
+
+.requestedCriteria-ul {
+    margin: 0 0 0 10px;
+    padding: 0;
+    /*width: 100%;*/
+    white-space: nowrap;   
+    overflow-x: auto;
+    overflow-y: hidden;  
+    min-height: 291px;
+}
+
+
+div[mdst-id$='unrequestedCriteria-div'] {
+    float: left;
+    margin: 5px 0 0 20px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.criteria-select{
+    width:180px ;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 0 !important;
+}
+.criteria-select option{
+    background-color: white;
+    color: #333;
+}
+
+@media (max-width: 767px) {
+
+    .requestedCriteria-ul {
+        width: auto;
+    }
+}
+.requestedCriteria-ul > li {
+    display: inline-block;
+    float: none;
+    vertical-align: top;  
+    margin: 0 0 0 14px ;
+}
+.requestedCriteria-ul > li:first-child {
+    margin-left: 0;
+}
+.requestedCriteria-ul > li:last-child {
+    margin-top: 5px;
+}
+.requestedCriteria-ul > li .criterion-div{
+    background:#fff;
+    /*margin-left:15px;*/
+    margin-top:5px;
+}
+.requestedCriteria-ul > li:first-child .criterion-div{
+    margin-left: 5px;
+}
+.requestedCriteria-ul > li .marge{
+    margin-left: 15px;
+}
+
+.requestedCriteriaName{
+    width:100px; 
+    height:36px;
+    word-wrap: break-word;
+    overflow: hidden;
+    margin: auto;
+    white-space: normal;
+}
+
+
+/**** GEO criteria WIDGET*****/
+
+/*widget enter or delete value in a input fiels  */
+
+.field {
+    float:left; 
+    width:80%; 
+    height:27px; 
+    line-height:27px;
+    text-indent:10px; 
+    font-family:arial, sans-serif; 
+    font-size:1em; 
+    color:#333; 
+    background: #fff; 
+    border:solid 1px #d9d9d9; 
+    border-top:solid 1px #c0c0c0; 
+    border-right:none;
+}
+
+/* Style the "X" text button next to the search input field */
+.delete {
+    float:left; 
+    width:16px;
+    height:29px; 
+    line-height:27px; 
+    margin-right:15px; 
+    padding:0 10px 0 10px;
+    font-family: "Lucida Sans", "Lucida Sans Unicode",sans-serif;
+    font-size:22px; 
+    background: #fff;  
+    border:solid 1px #d9d9d9; 
+    border-top:solid 1px #c0c0c0; 
+    border-left:none;
+}
+/* Set default state of "X" and hide it */
+.delete .x {
+    color:#A1B9ED; 
+    cursor:pointer;
+
+}
+/* Set the hover state of "X" */
+.delete .x:hover {
+    color:#36c;
+}
+
+
+/* inside the popup of discreteCriterion
+EXTENSION DU WIDGET MULTI-SELECT */
+
+.custom-header .alert,.custom-footer .alert {
+    background-color: #efefef; 
+    color: black;
+    border: none;
+}
+
+.ms-container .ms-selectable {
+    margin-right: 10%;
+    height: 90%;
+    min-height:90%;
+}
+
+.ms-container .ms-list {
+    min-height:400px;
+    height:400px;
+}
+
+
+.ui-autocomplete-input{
+    width:100%;
+    display: inline-block;
+    color: #808080;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding:0;
+}
+
+
+
+/**** discreteCriterion WIDGET: list of discrete criterion *****/
+
+ol[mdst-id$='criterionSelectable-ol'] .ui-selecting {
+    background: white;
+}
+ol[mdst-id$='criterionSelectable-ol'] .ui-required {
+    /*  background: #428BCA;*/
+    background: #337ab7;
+    color: white;
+} 
+ol[mdst-id$='criterionSelectable-ol'] { 
+    position: relative /* fixes bug in IE6/7 */;
+    list-style-type: none;
+    margin: 0; 
+    padding: 0; 
+}
+
+
+
+/* popup in big view of criteria choose box
+EXTENSION DU WIDGET POPUP-CONTENT  */
+.popup-content{
+    background-color: #1779ac;
+    position:relative;
+    margin:10px auto; 
+    height:100%;
+}
+
+.chevron {
+    position: absolute;
+    top: 0;
+    right: -16px;
+    display: block;
+    border: 17px solid transparent;
+    border-right: 0;
+    border-left: 14px solid #da4f49;
+}
+.chevron:before {
+    position: absolute;
+    top: -24px;
+    right: 1px;
+    display: block;
+    border: 24px solid transparent;
+    border-right: 0;  
+    content: "";
+}
+.chevron:before {
+    border-left: 14px solid transparent;
+}
+
+/*  */
+
+.ui-multiselect{
+    overflow-y: auto;
+    height: 160px;
+    white-space: normal;
+}
+
+.ui-helper-reset span {
+    font-size: 10px;
+}
+
+
+.widget-box {
+    clear: both;
+    position: relative;
+    border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+  padding: 15px;
+  
+
+}
+
+
+.widget-title {
+    height: 36px;
+
+    border-top-left-radius: 4px/*{cornerRadius}*/;
+    /*    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+        background-color: #fcf8e3;*/
+}
+.widget-title span.icon {
+    border-right: 1px solid #cdcdcd;
+    padding: 9px 10px 7px 11px;
+    float: left;
+    opacity: .7;
+}
+
+.widget-title span.icon-right {
+    border-left: 1px solid #cdcdcd;
+    padding: 9px 10px 7px 11px;
+    float: right;
+    opacity: .7;
+}
+
+.widget-title h5 {
+    color: #666666;
+    text-shadow: 0 1px 0 #ffffff;
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 12px;
+    margin: 0;
+}
+.widget-title .buttons {
+    float: right;
+    /*margin: 8px 10px 0 0;*/
+}
+.widget-title .label {
+    padding: 3px 5px 2px;
+    float: right;
+    margin: 9px 15px 0 0;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.3) inset, 0 1px 0 #ffffff;
+}
+
+
+.btn-group + .btn-group {  //override twitter bootstrap
+                           margin-left: 10px !important;
+}
+.dataSubsetDropdown{
+    font-size:  11px !important;
+}
+.dataSubsetDownload-button{
+    display:block !important;
+}
+
+.dataSubsetShow-button{
+    width:50px;
+}
+
+@media (max-width: 767px) {
+    .result-block{
+        margin: 0 0 10px 12px!important;
+    }
+    }

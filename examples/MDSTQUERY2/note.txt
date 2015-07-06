@@ -1,0 +1,5 @@
+Version du module MDSTQuery avec Bootstrap 3.
+Pour le fichier less, comme je ne peux pas automatiser la traduction de less vers css à partir d'un seul fichier.
+Il faut que je separe ce qui a trait à la version Bootstrap 2 et 3 et rassembler ce qui est independant .
+Dans le fichier MDSTQuery.less
+

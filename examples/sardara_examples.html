@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>MDST lIBRARY - DEVELOPMENT TOOL</title>
+        <link rel="stylesheet" type="text/css" href="../style.css"> 
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <link href='http://fonts.googleapis.com/css?family=Cinzel:400,700,900' rel='stylesheet' type='text/css'/>
+
+
+        <!--debut librairie mdst-->
+        <link rel="stylesheet" type="text/css" href="MDSTQUERY2/css/MDSTQuery.css"/>
+        <link rel="stylesheet" type="text/css" href="MDSTQUERY2/css/openLayers.css"/>
+        <link rel="stylesheet" type="text/css" href="MDSTQUERY2/css/multi-select.css"/>
+        <link rel="stylesheet" type="text/css" href="MDSTQUERY2/css/datetimepicker.css"/>
+        <link rel="stylesheet" type="text/css" href="MDSTQUERY2/css/datepicker.css"/>
+        <link rel="stylesheet" type="text/css" href="MDSTQUERY2/css/magnific-popup.css"/>
+
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"/>
+
+        <script type = "text/javascript" src = "MDSTQUERY2/xdomain.min.js" slave = "http://mdst-macroes.ird.fr/tmp/proxy.html" debug = "false" ></script> 
+        <script type="text/javascript" src='http://openlayers.org/api/OpenLayers.js'></script> 
+
+        <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js">
+            <script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+        <script type="text/javascript" src="MDSTQUERY2/js/bootstrap-datepicker.js"></script>
+        <script type="text/javascript" src="MDSTQUERY2/js/bootstrap-datetimepicker.min.js"></script>
+        <script type="text/javascript" src="MDSTQUERY2/js/jquery.multi-select.js"></script>
+        <script type="text/javascript" src="MDSTQUERY2/js/OpenLayersModifyFeature-tools.js"></script>
+        <script type="text/javascript" src="MDSTQUERY2/js/jquery.magnific-popup.js"></script> 
+        <script type="text/javascript" src="MDSTQUERY2/js/bootstrapx-clickover.js"></script> 
+        <script type="text/javascript" src="MDSTQUERY2/js/mdst.lib.v2.js"></script>
+
+    </head>
+
+    <body>
+        <div id="header">
+            <div id="titleTop" style="display:block;color:black;text-align:left;margin-left:20px;color:#353535;">MDST intégration example</div>
+        </div>
+        <div id="page1" class="part GeneralElement" style="display:block !important;">
+            <div id="contenu1" style="text-align:left;width: 100%;height: 60%;position: absolute;top: 5%;margin-top: 10%;overflow:hidden;">
+
+            </div> 
+        </div>
+        <div id="bottom">
+            <div  id="designedBy">
+                <p style="color:black !important;">
+                    Design By Celty and Espheros
+                </p>
+            </div>
+            <div id="copyright"><p style="color:black !important;"><i>copyright @Celty 2013</i></p></div>
+        </div>
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+                var $manager = {
+                    deleteCriterionButtonClass: $(".deleteCriterion-button"),
+                    blockUnrequestedCriteriaSelectId: $("select[id$='unrequestedCriteria-select']"),
+                };
+                var opt = {
+                    workspace: "",
+                    viewURI: "http://www.ecoscope.org/ontologies/resources/dbSardaraTunaAtlasI1I2",
+                    sourceURI: "http://www.ecoscope.org/ontologies/resources/dbSardaraTunaAtlas",
+                    onUpdate: function () {
+                    }
+                };
+                $("#contenu1").mdst(opt);
+            });
+        </script>
+    </body>
+</html>

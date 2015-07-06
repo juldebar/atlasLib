@@ -1,0 +1,414 @@
+/* line 3, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\000033}}
+input[readonly] {
+  cursor: pointer !important;
+}
+/* line 6, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\000036}}
+.progress {
+  /*height:60px;titititi*/
+  margin-bottom: 0px;
+}
+/* line 12, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\0000312}}
+::-webkit-scrollbar {
+  width: 12px;
+}
+/* line 17, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\0000317}}
+::-webkit-scrollbar-track {
+  background: white;
+}
+/* line 21, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\0000321}}
+::-webkit-scrollbar-thumb {
+  background: #da4f49;
+}
+/* line 25, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\0000325}}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: #da4f49;
+}
+/* line 29, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\0000329}}
+.result-block {
+  background-color: #f7f7f7 !important;
+  min-height: 291px;
+}
+/* line 35, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\0000335}}
+#MDSTContainer {
+  min-height: 250px;
+}
+/* line 39, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\0000339}}
+.otherSize {
+  width: 100%;
+  max-width: 152px;
+  /* width= requestedCriteriaName + 68px*/
+  height: 36px;
+}
+/* Update btn*/
+/* line 45, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\0000345}}
+.update {
+  padding: 1px 3px !important;
+  /* ecrase le padding de la classe .btn de Boo*/
+}
+/* line 49, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\0000349}}
+.alert {
+  margin-bottom: 10px;
+}
+/* Popup */
+/* line 55, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\0000355}}
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  min-height: 800px;
+  /*  max-width: 90%;*/
+  margin: 10px auto;
+}
+/* line 66, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\0000366}}
+.mfp-bg {
+  opacity: 0.8 ;
+}
+/* line 70, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\0000370}}
+.popup-content {
+  background-color: #1779ac;
+  position: relative;
+  margin: 10px auto;
+  height: 100%;
+}
+/* Steps in request */
+/* line 80, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\0000380}}
+.requestedCriteria-ul {
+  margin: 0 0 0 10px;
+  padding: 0;
+  /*width: 100%;*/
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  min-height: 291px;
+}
+/* line 91, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\0000391}}
+div[mdst-id$='unrequestedCriteria-div'] {
+  float: left;
+  margin: 5px 0 0 20px;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+/* line 97, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\0000397}}
+.criteria-select {
+  width: 180px ;
+  height: 50px;
+  line-height: 50px;
+  margin-bottom: 0 !important;
+}
+/* line 103, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\00003103}}
+.criteria-select option {
+  background-color: white;
+  color: #333;
+}
+@media (max-width: 767px) {
+  /* line 110, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\00003110}}
+  .requestedCriteria-ul {
+    width: auto;
+  }
+}
+/* line 114, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\00003114}}
+.requestedCriteria-ul > li {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  margin: 0 0 0 14px ;
+}
+/* line 120, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\00003120}}
+.requestedCriteria-ul > li:first-child {
+  margin-left: 0;
+}
+/* line 123, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\00003123}}
+.requestedCriteria-ul > li:last-child {
+  margin-top: 5px;
+}
+/* line 126, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\00003126}}
+.requestedCriteria-ul > li .criterion-div {
+  background: #fff;
+  /*margin-left:15px;*/
+  margin-top: 5px;
+}
+/* line 131, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\00003131}}
+.requestedCriteria-ul > li:first-child .criterion-div {
+  margin-left: 5px;
+}
+/* line 134, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\00003134}}
+.requestedCriteria-ul > li .marge {
+  margin-left: 15px;
+}
+/* line 138, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\00003138}}
+.requestedCriteriaName {
+  width: 100px;
+  height: 36px;
+  word-wrap: break-word;
+  overflow: hidden;
+  margin: auto;
+  white-space: normal;
+}
+/**** GEO criteria WIDGET*****/
+/*widget enter or delete value in a input fiels  */
+/* line 152, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\00003152}}
+.field {
+  float: left;
+  width: 80%;
+  height: 27px;
+  line-height: 27px;
+  text-indent: 10px;
+  font-family: arial, sans-serif;
+  font-size: 1em;
+  color: #333;
+  background: #fff;
+  border: solid 1px #d9d9d9;
+  border-top: solid 1px #c0c0c0;
+  border-right: none;
+}
+/* Style the "X" text button next to the search input field */
+/* line 168, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\00003168}}
+.delete {
+  float: left;
+  width: 16px;
+  height: 29px;
+  line-height: 27px;
+  margin-right: 15px;
+  padding: 0 10px 0 10px;
+  font-family: "Lucida Sans", "Lucida Sans Unicode", sans-serif;
+  font-size: 22px;
+  background: #fff;
+  border: solid 1px #d9d9d9;
+  border-top: solid 1px #c0c0c0;
+  border-left: none;
+}
+/* Set default state of "X" and hide it */
+/* line 183, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\00003183}}
+.delete .x {
+  color: #A1B9ED;
+  cursor: pointer;
+}
+/* Set the hover state of "X" */
+/* line 189, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\00003189}}
+.delete .x:hover {
+  color: #36c;
+}
+/* inside the popup of discreteCriterion
+EXTENSION DU WIDGET MULTI-SELECT */
+/* line 197, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\00003197}}
+.custom-header .alert,
+.custom-footer .alert {
+  background-color: #efefef;
+  color: black;
+  border: none;
+}
+/* line 203, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\00003203}}
+.ms-container .ms-selectable {
+  margin-right: 10%;
+  height: 90%;
+  min-height: 90%;
+}
+/* line 209, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\00003209}}
+.ms-container .ms-list {
+  min-height: 400px;
+  height: 400px;
+}
+/* line 215, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\00003215}}
+.ui-autocomplete-input {
+  width: 100%;
+  display: inline-block;
+  color: #808080;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  padding: 0;
+}
+/**** discreteCriterion WIDGET: list of discrete criterion *****/
+/* line 230, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\00003230}}
+ol[mdst-id$='criterionSelectable-ol'] .ui-selecting {
+  background: white;
+}
+/* line 233, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\00003233}}
+ol[mdst-id$='criterionSelectable-ol'] .ui-required {
+  /*  background: #428BCA;*/
+  background: #337ab7;
+  color: white;
+}
+/* line 238, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\00003238}}
+ol[mdst-id$='criterionSelectable-ol'] {
+  position: relative /* fixes bug in IE6/7 */;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/* popup in big view of criteria choose box
+EXTENSION DU WIDGET POPUP-CONTENT  */
+/* line 249, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\00003249}}
+.popup-content {
+  background-color: #1779ac;
+  position: relative;
+  margin: 10px auto;
+  height: 100%;
+}
+/* line 256, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\00003256}}
+.chevron {
+  position: absolute;
+  top: 0;
+  right: -16px;
+  display: block;
+  border: 17px solid transparent;
+  border-right: 0;
+  border-left: 14px solid #da4f49;
+}
+/* line 265, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\00003265}}
+.chevron:before {
+  position: absolute;
+  top: -24px;
+  right: 1px;
+  display: block;
+  border: 24px solid transparent;
+  border-right: 0;
+  content: "";
+}
+/* line 274, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\00003274}}
+.chevron:before {
+  border-left: 14px solid transparent;
+}
+/*  */
+/* line 280, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\00003280}}
+.ui-multiselect {
+  overflow-y: auto;
+  height: 160px;
+  white-space: normal;
+}
+/* line 286, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\00003286}}
+.ui-helper-reset span {
+  font-size: 10px;
+}
+/* line 291, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\00003291}}
+.widget-box {
+  clear: both;
+  position: relative;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  padding: 15px;
+}
+/* line 304, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\00003304}}
+.widget-title {
+  height: 36px;
+  border-top-left-radius: 4px /*{cornerRadius}*/;
+  /*    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+        background-color: #fcf8e3;*/
+}
+/* line 311, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\00003311}}
+.widget-title span.icon {
+  border-right: 1px solid #cdcdcd;
+  padding: 9px 10px 7px 11px;
+  float: left;
+  opacity: .7;
+}
+/* line 318, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\00003318}}
+.widget-title span.icon-right {
+  border-left: 1px solid #cdcdcd;
+  padding: 9px 10px 7px 11px;
+  float: right;
+  opacity: .7;
+}
+/* line 325, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\00003325}}
+.widget-title h5 {
+  color: #666666;
+  text-shadow: 0 1px 0 #ffffff;
+  float: left;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 12px;
+  margin: 0;
+}
+/* line 334, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\00003334}}
+.widget-title .buttons {
+  float: right;
+  /*margin: 8px 10px 0 0;*/
+}
+/* line 338, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\00003338}}
+.widget-title .label {
+  padding: 3px 5px 2px;
+  float: right;
+  margin: 9px 15px 0 0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) inset, 0 1px 0 #ffffff;
+}
+/* line 346, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\00003346}}
+.btn-group + .btn-group {
+  margin-left: 10px !important;
+}
+/* line 349, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\00003349}}
+.dataSubsetDropdown {
+  font-size: 11px !important;
+}
+/* line 352, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\00003352}}
+.dataSubsetDownload-button {
+  display: block !important;
+}
+/* line 356, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\00003356}}
+.dataSubsetShow-button {
+  width: 50px;
+}
+@media (max-width: 767px) {
+  /* line 361, /home/bonnefont/Boulot/NetbeansProjects/MDST/MDSTWebClientNG/src/main/webapp/MODULES/MDSTQUERY2/less/MDSTQuery.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bonnefont\/Boulot\/NetbeansProjects\/MDST\/MDSTWebClientNG\/src\/main\/webapp\/MODULES\/MDSTQUERY2\/less\/MDSTQuery\.less}line{font-family:\00003361}}
+  .result-block {
+    margin: 0 0 10px 12px!important;
+  }
+}
